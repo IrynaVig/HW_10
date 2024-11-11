@@ -1,0 +1,28 @@
+    1  git config --global user.name "Iryna Vihovska"
+    2  git config --global user.email iren9247@gmail.com
+    3  git clone https://github.com/IrynaVig/HW_10.git
+    4  cd HW_10/
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  nano .gitignore
+    8  git status
+    9  git add .gitignore
+   10  git commit -m "Added text_ignore.txt to .gitignore"
+   11  touch main_test.txt
+   12  git add .main_test.txt
+   13  git add.
+   14  git add .
+   15  git commit -m "Create an empty file main_test.txt"
+   16  git checkout -b develop
+   17  git checkout develop
+   18  touch develop_test.txt
+   19  git add .
+   20  git commit -m "Create develop_test.txt in develop branch"
+   21  nano develop_test.txt
+   22  git status
+   23  git add .
+   24  git commit -m "Added a small change to develop_test.txt"
+   25  git checkout main
+   26  git merge develop
+   27  git log
+   28  history > command_list.csv
